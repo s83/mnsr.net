@@ -117,16 +117,19 @@
         </mask>
     </svg></div>
     <script src="https://form.jotform.com/cardforms/feedbackEmbedButton.min.js"></script>
-    <script>
-      new JF_FeedbackEmbedButton({
-        buttonText: "send a message!",
-        buttonFontColor: "#d71b12",
-        buttonBackgroundColor: "#ffffff",
-        buttonSide: "Bottom",
-        buttonAlign: "Right",
-        buttonIcon: "envelope",
-        base: "https://form.jotform.com/",
-        formId: 213515078094355
-      });
-    </script>
+    <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript">
+        new JotformFeedback({
+          formId: "213515078094355",
+          buttonText: "send a message!",
+          base: "https://form.jotform.com/",
+          background: "#ffffff",
+          fontColor: "#d71b12",
+          buttonSide: "Bottom",
+          buttonAlign: "Right",
+          type: 1,
+          width: 700,
+          height: 500,
+          isCardForm: false
+        });
+      </script>
 </body></html>
